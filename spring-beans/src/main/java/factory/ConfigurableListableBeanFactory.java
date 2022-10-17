@@ -1,0 +1,4 @@
+package factory;
+
+public interface ConfigurableListableBeanFactory extends ListableBeanFactory,ConfigurableBeanFactory,AutowireCapableBeanFactory {
+}

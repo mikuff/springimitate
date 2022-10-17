@@ -1,16 +1,16 @@
 package exception;
 
-/**
- * Bean处理相关的异常
- */
 public class BeansException extends RuntimeException {
 
-    public BeansException(String msg) {
-        super(msg);
+    public BeansException() {
+        super();
     }
 
-    public BeansException(String msg, Throwable cause) {
-        super(msg, cause);
+    public BeansException(String message) {
+        super(message);
     }
 
+    public BeansException(String message, Throwable cause) {
+        super(message, cause);
+    }
 }
